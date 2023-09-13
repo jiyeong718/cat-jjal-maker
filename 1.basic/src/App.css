@@ -1,0 +1,49 @@
+.containner {
+  margin: auto;
+  max-width: 600px;
+}
+
+.block {
+  padding: 20px;
+  margin-top: 50px;
+  background: #fff;
+  border: none;
+  position: relative;
+}
+
+.menuItem {
+  display: flex;
+  column-gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.menuItem div {
+  border: 1px solid aqua;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.menuList {
+  color: lightsalmon;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.menuInput {
+  border: none;
+  border-bottom: 1px solid lightsalmon;
+  padding-left: 7px;
+  font-size: 20px;
+  color: rgb(48, 48, 48);
+  width: 330px;
+  outline: none;
+}
+
+#submitBtn {
+  position: absolute;
+  background-color: limegreen;
+  border: none;
+
+}

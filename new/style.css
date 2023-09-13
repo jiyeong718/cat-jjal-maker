@@ -1,0 +1,52 @@
+body {
+  background-color: bisque;
+}
+
+.title {
+  margin: 10px 0;
+}
+
+.containner {
+  margin: auto;
+  max-width: 600px;
+}
+
+.todoBlock {
+  padding: 20px;
+  margin-top: 50px;
+  background: #fff;
+  border: none;
+  position: relative;
+}
+
+.menuItem {
+  position: absolute;
+  display: flex;
+  border: 1px solid black;
+  width: 500px;
+  height: 200px;
+}
+
+.menuItem div {
+  width: 200px;
+  height: 50px;
+  border: 1px solid aqua;
+}
+
+.menuList {
+  color: lightsalmon;
+}
+
+.menuInput {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 2px;
+
+}
+
+#submitBtn {
+  position: absolute;
+  background-color: limegreen;
+  border: none;
+
+}
